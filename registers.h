@@ -1,0 +1,53 @@
+
+
+enum registers
+{
+
+    ax = 0x0,
+    dx = 0x1,
+    cx = 0x2,
+    bx = 0x3,
+    sp = 0x4,
+    bp = 0x5,
+    si = 0x6,
+    di = 0x7
+
+};
+
+enum registers_bit8
+{
+
+    al = 0x0,
+    dl = 0x1,
+    cl = 0x2,
+    bl = 0x3,
+    ah = 0x4,
+    dh = 0x5,
+    ch = 0x6,
+    bh = 0x7
+
+};
+
+enum opcodes
+{
+
+    inc = 0x40,
+    dec = 0x48,
+    inc_mem = 0xFE,
+    dec_mem = 0xFE,
+    mov = 0x8A,
+    add = 0x3,
+    test = 0xF6,
+    jmp_shrt = 0xEB,
+    jz = 0x74,
+    intr = 0xCD
+
+
+};
+
+enum mod0
+{
+
+    si0 = 0x4
+
+};
